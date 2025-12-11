@@ -1,0 +1,81 @@
+@font-face {
+  font-family: firstFont;
+  src: url(melted_monster/Melted\ Monster.ttf);
+}
+@font-face {
+  font-family: secondFont;
+  src: url(spooky_mother/Spooky\ Mother.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    user-select: none;
+    background-image: url(Still-2024-11-27-115104_1.5Tarman3.webp);
+    background-size: 155%;
+    background-position: center;
+    height: 95vh;
+}
+header{
+    font-weight: 50;
+    font-family: firstFont;
+    text-align: center;
+    color: rgb(85, 208, 14);
+    padding: 10px;
+    font-size: 35px;
+    background-color: rgb(233, 233, 233);
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 50px;
+}
+main{
+    font-family: secondFont;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+}
+div{
+    display: flex;
+    margin: 20px;
+}
+a{
+    padding: 10px;
+    background-color: rgb(198, 1, 1);
+    margin: 10px 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 10px;
+
+}
+#start{
+    font-family: firstFont;
+    display: block;
+    width: 200px;
+    text-align: center;
+    padding: 15px 15px;
+    background-color: rgb(1, 102, 198);
+    margin: 50px auto;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    font-size: 50px;
+    border-radius: 10px;
+}
+footer{
+    text-align: center;
+    color: rgb(208, 14, 14);
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(233, 233, 233);
+    width: 20%;
+    margin: 50px auto;
+    border-radius: 50px;
+}
